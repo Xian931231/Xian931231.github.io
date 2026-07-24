@@ -9,14 +9,14 @@
     --color-surface: #ffffff;
     --color-accent: #0066cc;
     --color-accent-muted: rgba(0, 102, 204, 0.12);
-    --color-dark: #000000;
+    --color-dark: #0b1d3a;
     --color-divider: #d2d2d7;
 }
 
 body {
     color: var(--color-muted);
     background: var(--color-bg);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Apple SD 산돌고딕 Neo', 'Noto Sans KR', sans-serif;
 }
 
 a {
