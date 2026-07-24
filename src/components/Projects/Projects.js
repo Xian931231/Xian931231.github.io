@@ -15,10 +15,78 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          실무 <strong className="purple">프로젝트</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          그동안 수행했던 SI / 사내 프로젝트입니다.
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="AI 기반 업무 자동화 플랫폼 (AICC)"
+              period="2025.07 ~ 현재 · 딜라이브"
+              description="Workato 기반 AI 자동화 플랫폼 도입 전략 수립 및 PoC 주도. SaaS·내부 DB·업무 시스템 간 REST API 데이터 연동 아키텍처 설계, 고객 응대 자동화·데이터 수집·알림 전송 시나리오 구현."
+              techStack="Workato, REST API, Oracle DB, JSON"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="DW/BI 운영 및 데이터 플랫폼 고도화"
+              period="2025.01 ~ 2025.07 · 딜라이브"
+              description="SAP ERP/CRM/Billing 다중 소스 데이터 ETL 처리 및 Oracle/SAP BW DW 적재 운영. 데이터 품질 관리 프로세스 수립 및 경영진 KPI 대시보드 구축."
+              techStack="Oracle, SAP BW, SAP Data Services, Informatica, Web Intelligence, Crystal Report, Lumira"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="INNOCEAN MOCA — 지역 타겟 광고 대행 플랫폼"
+              period="2023.04 ~ 2024.03 · 뉴프롬"
+              description="위치 기반 광고 노출 로직 구현, 광고주·대행사·관리자 3단계 권한 분리 포털 설계, 등록→심의→승인→게시 워크플로우 API 개발."
+              techStack="Spring Boot, Java, MyBatis, PostgreSQL, AWS S3"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="Miro OutboundCall — 고객 상담 콜 시스템"
+              period="2023.02 ~ 2023.04 · 뉴프롬"
+              description="AWS Lambda + API Gateway 기반 서버리스 아키텍처 설계, 상담원 일정 관리 및 예약 충돌 방지 로직 구현."
+              techStack="AWS Lambda, API Gateway, MariaDB"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="AIworks — Azure to AWS 서버 이관"
+              period="2022.08 ~ 2023.02 · 뉴프롬"
+              description="Azure 운영 서비스(Node.js/PHP/React 혼재) 분석 후 무중단 AWS 이관, 레거시 코드를 Spring Boot + Java 구조로 리팩토링."
+              techStack="Spring Boot, Java, Node.js, PHP, AWS EC2, AWS S3, MariaDB"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="충남대학교 DUNet LCMS — 클라우드 학습관리 시스템"
+              period="2021.11 ~ 2022.08 · 뉴프롬"
+              description="LCMS 페이지 리뉴얼 및 온라인 시험 응시 페이지 풀스택 개발, Oracle DB 스키마 설계 및 쿼리 최적화."
+              techStack="Spring Boot, Java, MyBatis, Oracle, JavaScript, jQuery"
+            />
+          </Col>
+        </Row>
+
+        <h1 className="project-heading" style={{ paddingTop: "40px" }}>
+          토이 <strong className="purple">프로젝트</strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          개인적으로 진행한 사이드 프로젝트입니다.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
