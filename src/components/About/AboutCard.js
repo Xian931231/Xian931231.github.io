@@ -12,7 +12,7 @@ function AboutCard() {
             입니다.
             <br />
             <br />
-            현재 <span className="purple">딜라이브 AI Solution TF</span>에서 AI
+            현재 <span className="purple">딜라이브 AX Solution 팀</span>에서 AI
             기반 서비스 개발 및 업무 자동화 프로젝트를 수행하고 있으며,
             Java/Spring Boot 기반 웹 서비스 개발, 데이터 엔지니어링, 클라우드
             환경 구축 및 운영을 담당하고 있습니다.
